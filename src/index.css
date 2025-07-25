@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Harry Potter Magical Design System - All colors MUST be HSL */
+
+@layer base {
+  :root {
+    /* Dark magical background palette */
+    --background: 220 25% 8%;
+    --foreground: 45 100% 90%;
+    
+    /* Gryffindor colors */
+    --gryffindor-gold: 45 100% 51%;
+    --gryffindor-red: 0 70% 45%;
+    
+    /* Slytherin colors */
+    --slytherin-green: 120 40% 30%;
+    --slytherin-silver: 0 0% 75%;
+    
+    /* Ravenclaw colors */
+    --ravenclaw-blue: 220 70% 50%;
+    --ravenclaw-bronze: 30 60% 45%;
+    
+    /* Hufflepuff colors */
+    --hufflepuff-yellow: 50 90% 55%;
+    --hufflepuff-black: 0 0% 15%;
+    
+    /* Magical gradients */
+    --magical-primary: linear-gradient(135deg, hsl(var(--gryffindor-gold)), hsl(var(--gryffindor-red)));
+    --magical-secondary: linear-gradient(135deg, hsl(var(--slytherin-green)), hsl(var(--slytherin-silver)));
+    --magical-accent: linear-gradient(135deg, hsl(var(--ravenclaw-blue)), hsl(var(--ravenclaw-bronze)));
+    
+    /* Shadows and effects */
+    --magical-glow: 0 0 30px hsl(var(--gryffindor-gold) / 0.3);
+    --shadow-enchanted: 0 20px 40px -10px hsl(0 0% 0% / 0.5);
+    --shadow-levitate: 0 10px 30px -5px hsl(var(--gryffindor-gold) / 0.2);
+    
+    /* Animations */
+    --transition-magical: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --float-duration: 3s;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: var(--gryffindor-gold);
+    --primary-foreground: var(--hufflepuff-black);
+
+    --secondary: var(--slytherin-green);
+    --secondary-foreground: var(--slytherin-silver);
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: var(--ravenclaw-blue);
+    --accent-foreground: var(--ravenclaw-bronze);
+
+    --destructive: var(--gryffindor-red);
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 18%;
+    --ring: var(--gryffindor-gold);
+
+    /* Card styling for magical theme */
+    --card: 220 25% 12%;
+    --card-foreground: var(--foreground);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(var(--gryffindor-gold) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(var(--slytherin-green) / 0.1) 0%, transparent 50%);
+    min-height: 100vh;
+  }
+}
+
+/* Magical animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-10px) rotate(1deg); }
+  66% { transform: translateY(-5px) rotate(-1deg); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes magical-glow {
+  0%, 100% { box-shadow: 0 0 20px hsl(var(--gryffindor-gold) / 0.3); }
+  50% { box-shadow: 0 0 40px hsl(var(--gryffindor-gold) / 0.6); }
+}
+
+@keyframes levitate {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Utility classes for magical effects */
+.float-animation {
+  animation: float var(--float-duration) ease-in-out infinite;
+}
+
+.sparkle-animation {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.magical-glow {
+  animation: magical-glow 3s ease-in-out infinite;
+}
+
+.levitate {
+  animation: levitate 2s ease-in-out infinite;
+}
+
+.magical-gradient {
+  background: var(--magical-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.house-border {
+  border: 2px solid transparent;
+  background: linear-gradient(var(--card), var(--card)) padding-box,
+              var(--magical-primary) border-box;
+}
