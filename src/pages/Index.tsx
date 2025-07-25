@@ -99,6 +99,56 @@ const Index = () => {
     },
     {
       rank: 10,
+      username: 'silkic',
+      totalPoints: 3,
+      prs: 1,
+      prDetails: [
+        { level: 1, count: 1, prNumbers: [94], points: 3 },
+      ],
+      githubUrl: 'https://github.com/silkic',
+    },
+    {
+      rank: 11,
+      username: 'Shiv24angi',
+      totalPoints: 3,
+      prs: 1,
+      prDetails: [
+        { level: 1, count: 1, prNumbers: [97], points: 3 },
+      ],
+      githubUrl: 'https://github.com/Shiv24angi',
+    },
+    {
+      rank: 12,
+      username: 'Kirti-Pant',
+      totalPoints: 3,
+      prs: 1,
+      prDetails: [
+        { level: 1, count: 1, prNumbers: [99], points: 3 },
+      ],
+      githubUrl: 'https://github.com/Kirti-Pant',
+    },
+    {
+      rank: 13,
+      username: 'DivyaJain-DataAnalyst',
+      totalPoints: 3,
+      prs: 1,
+      prDetails: [
+        { level: 1, count: 1, prNumbers: [103], points: 3 },
+      ],
+      githubUrl: 'https://github.com/DivyaJain-DataAnalyst',
+    },
+    {
+      rank: 14,
+      username: 'madhuravalliakshaya',
+      totalPoints: 3,
+      prs: 1,
+      prDetails: [
+        { level: 1, count: 1, prNumbers: [113], points: 3 },
+      ],
+      githubUrl: 'https://github.com/madhuravalliakshaya',
+    },
+    {
+      rank: 15,
       username: 'VisibleNasir',
       totalPoints: 3,
       prs: 1,
@@ -108,7 +158,7 @@ const Index = () => {
       githubUrl: 'https://github.com/VisibleNasir',
     },
     {
-      rank: 11,
+      rank: 16,
       username: '12Mishra',
       totalPoints: 3,
       prs: 1,
@@ -118,7 +168,7 @@ const Index = () => {
       githubUrl: 'https://github.com/12Mishra',
     },
     {
-      rank: 12,
+      rank: 17,
       username: 'Suhani1234-5',
       totalPoints: 3,
       prs: 1,
@@ -128,7 +178,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Suhani1234-5',
     },
     {
-      rank: 13,
+      rank: 18,
       username: 'radhika-droid',
       totalPoints: 3,
       prs: 1,
@@ -138,7 +188,7 @@ const Index = () => {
       githubUrl: 'https://github.com/radhika-droid',
     },
     {
-      rank: 14,
+      rank: 19,
       username: 'sampada115',
       totalPoints: 3,
       prs: 1,
