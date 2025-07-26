@@ -31,10 +31,10 @@ const Index = () => {
     {
       rank: 3,
       username: 'madhuravalliakshaya',
-      totalPoints: 10,
-      prs: 2,
+      totalPoints: 13,
+      prs: 3,
       prDetails: [
-        { level: 1, count: 1, prNumbers: [113], points: 3 },
+        { level: 1, count: 2, prNumbers: [113, 122], points: 6 },
         { level: 2, count: 1, prNumbers: [115], points: 7 },
       ],
       githubUrl: 'https://github.com/madhuravalliakshaya',
