@@ -142,6 +142,16 @@ const Index = () => {
     },
     {
       rank: 14,
+      username: 'myselfsneha',
+      totalPoints: 7,
+      prs: 1,
+      prDetails: [
+        { level: 2, count: 1, prNumbers: [189], points: 7 },
+      ],
+      githubUrl: 'https://github.com/myselfsneha',
+    },
+    {
+      rank: 15,
       username: 'DharminJoshi',
       totalPoints: 6,
       prs: 2,
@@ -151,7 +161,7 @@ const Index = () => {
       githubUrl: 'https://github.com/DharminJoshi',
     },
     {
-      rank: 15,
+      rank: 16,
       username: 'SkundKumar',
       totalPoints: 6,
       prs: 2,
@@ -161,7 +171,27 @@ const Index = () => {
       githubUrl: 'https://github.com/SkundKumar',
     },
     {
-      rank: 16,
+      rank: 17,
+      username: 'rohithgoje21',
+      totalPoints: 3,
+      prs: 1,
+      prDetails: [
+        { level: 1, count: 1, prNumbers: [186], points: 3 },
+      ],
+      githubUrl: 'https://github.com/rohithgoje21',
+    },
+    {
+      rank: 18,
+      username: 'Simrankapoor33',
+      totalPoints: 3,
+      prs: 1,
+      prDetails: [
+        { level: 1, count: 1, prNumbers: [187], points: 3 },
+      ],
+      githubUrl: 'https://github.com/Simrankapoor33',
+    },
+    {
+      rank: 19,
       username: 'hiralkjain',
       totalPoints: 3,
       prs: 1,
@@ -171,7 +201,7 @@ const Index = () => {
       githubUrl: 'https://github.com/hiralkjain',
     },
     {
-      rank: 17,
+      rank: 20,
       username: 'Subh37106',
       totalPoints: 3,
       prs: 1,
@@ -181,7 +211,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Subh37106',
     },
     {
-      rank: 18,
+      rank: 21,
       username: 'chand192004',
       totalPoints: 3,
       prs: 1,
@@ -191,7 +221,7 @@ const Index = () => {
       githubUrl: 'https://github.com/chand192004',
     },
     {
-      rank: 19,
+      rank: 22,
       username: 'Monal-Jain01',
       totalPoints: 3,
       prs: 1,
@@ -201,7 +231,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Monal-Jain01',
     },
     {
-      rank: 20,
+      rank: 23,
       username: 'HemantSharma456',
       totalPoints: 3,
       prs: 1,
@@ -211,7 +241,7 @@ const Index = () => {
       githubUrl: 'https://github.com/HemantSharma456',
     },
     {
-      rank: 21,
+      rank: 24,
       username: 'silkic',
       totalPoints: 3,
       prs: 1,
@@ -221,7 +251,7 @@ const Index = () => {
       githubUrl: 'https://github.com/silkic',
     },
     {
-      rank: 22,
+      rank: 25,
       username: 'Shiv24angi',
       totalPoints: 3,
       prs: 1,
@@ -231,7 +261,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Shiv24angi',
     },
     {
-      rank: 23,
+      rank: 26,
       username: 'Kirti-Pant',
       totalPoints: 3,
       prs: 1,
@@ -241,7 +271,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Kirti-Pant',
     },
     {
-      rank: 24,
+      rank: 27,
       username: 'DivyaJain-DataAnalyst',
       totalPoints: 3,
       prs: 1,
@@ -251,7 +281,7 @@ const Index = () => {
       githubUrl: 'https://github.com/DivyaJain-DataAnalyst',
     },
     {
-      rank: 25,
+      rank: 28,
       username: 'VisibleNasir',
       totalPoints: 3,
       prs: 1,
@@ -261,7 +291,7 @@ const Index = () => {
       githubUrl: 'https://github.com/VisibleNasir',
     },
     {
-      rank: 26,
+      rank: 29,
       username: '12Mishra',
       totalPoints: 3,
       prs: 1,
@@ -271,7 +301,7 @@ const Index = () => {
       githubUrl: 'https://github.com/12Mishra',
     },
     {
-      rank: 27,
+      rank: 30,
       username: 'Suhani1234-5',
       totalPoints: 3,
       prs: 1,
@@ -281,7 +311,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Suhani1234-5',
     },
     {
-      rank: 28,
+      rank: 31,
       username: 'radhika-droid',
       totalPoints: 3,
       prs: 1,
@@ -291,7 +321,7 @@ const Index = () => {
       githubUrl: 'https://github.com/radhika-droid',
     },
     {
-      rank: 29,
+      rank: 32,
       username: 'sampada115',
       totalPoints: 3,
       prs: 1,
