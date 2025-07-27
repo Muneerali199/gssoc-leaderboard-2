@@ -20,9 +20,10 @@ const Index = () => {
     {
       rank: 2,
       username: 'parthparmar07',
-      totalPoints: 27,
-      prs: 3,
+      totalPoints: 30,
+      prs: 4,
       prDetails: [
+        { level: 1, count: 1, prNumbers: [183], points: 3 },
         { level: 2, count: 1, prNumbers: [121], points: 7 },
         { level: 3, count: 2, prNumbers: [146, 169], points: 20 },
       ],
