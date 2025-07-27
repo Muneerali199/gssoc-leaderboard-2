@@ -161,6 +161,16 @@ const Index = () => {
     },
     {
       rank: 16,
+      username: 'hiralkjain',
+      totalPoints: 3,
+      prs: 1,
+      prDetails: [
+        { level: 1, count: 1, prNumbers: [182], points: 3 },
+      ],
+      githubUrl: 'https://github.com/hiralkjain',
+    },
+    {
+      rank: 17,
       username: 'Subh37106',
       totalPoints: 3,
       prs: 1,
@@ -170,7 +180,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Subh37106',
     },
     {
-      rank: 17,
+      rank: 18,
       username: 'chand192004',
       totalPoints: 3,
       prs: 1,
@@ -180,7 +190,7 @@ const Index = () => {
       githubUrl: 'https://github.com/chand192004',
     },
     {
-      rank: 18,
+      rank: 19,
       username: 'Monal-Jain01',
       totalPoints: 3,
       prs: 1,
@@ -190,7 +200,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Monal-Jain01',
     },
     {
-      rank: 19,
+      rank: 20,
       username: 'HemantSharma456',
       totalPoints: 3,
       prs: 1,
@@ -200,7 +210,7 @@ const Index = () => {
       githubUrl: 'https://github.com/HemantSharma456',
     },
     {
-      rank: 20,
+      rank: 21,
       username: 'silkic',
       totalPoints: 3,
       prs: 1,
@@ -210,7 +220,7 @@ const Index = () => {
       githubUrl: 'https://github.com/silkic',
     },
     {
-      rank: 21,
+      rank: 22,
       username: 'Shiv24angi',
       totalPoints: 3,
       prs: 1,
@@ -220,7 +230,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Shiv24angi',
     },
     {
-      rank: 22,
+      rank: 23,
       username: 'Kirti-Pant',
       totalPoints: 3,
       prs: 1,
@@ -230,7 +240,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Kirti-Pant',
     },
     {
-      rank: 23,
+      rank: 24,
       username: 'DivyaJain-DataAnalyst',
       totalPoints: 3,
       prs: 1,
@@ -240,7 +250,7 @@ const Index = () => {
       githubUrl: 'https://github.com/DivyaJain-DataAnalyst',
     },
     {
-      rank: 24,
+      rank: 25,
       username: 'VisibleNasir',
       totalPoints: 3,
       prs: 1,
@@ -250,7 +260,7 @@ const Index = () => {
       githubUrl: 'https://github.com/VisibleNasir',
     },
     {
-      rank: 25,
+      rank: 26,
       username: '12Mishra',
       totalPoints: 3,
       prs: 1,
@@ -260,7 +270,7 @@ const Index = () => {
       githubUrl: 'https://github.com/12Mishra',
     },
     {
-      rank: 26,
+      rank: 27,
       username: 'Suhani1234-5',
       totalPoints: 3,
       prs: 1,
@@ -270,7 +280,7 @@ const Index = () => {
       githubUrl: 'https://github.com/Suhani1234-5',
     },
     {
-      rank: 27,
+      rank: 28,
       username: 'radhika-droid',
       totalPoints: 3,
       prs: 1,
@@ -280,7 +290,7 @@ const Index = () => {
       githubUrl: 'https://github.com/radhika-droid',
     },
     {
-      rank: 28,
+      rank: 29,
       username: 'sampada115',
       totalPoints: 3,
       prs: 1,
