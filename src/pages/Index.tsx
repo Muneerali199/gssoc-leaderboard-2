@@ -20,11 +20,11 @@ const Index = () => {
     {
       rank: 2,
       username: 'parthparmar07',
-      totalPoints: 17,
-      prs: 2,
+      totalPoints: 27,
+      prs: 3,
       prDetails: [
         { level: 2, count: 1, prNumbers: [121], points: 7 },
-        { level: 3, count: 1, prNumbers: [146], points: 10 },
+        { level: 3, count: 2, prNumbers: [146, 169], points: 20 },
       ],
       githubUrl: 'https://github.com/parthparmar07',
     },
